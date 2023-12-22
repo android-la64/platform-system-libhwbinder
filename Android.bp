@@ -162,7 +162,7 @@ cc_defaults {
         instrumentation: true,
         profile_file: "hwbinder/hwbinder.profdata",
         benchmarks: ["hwbinder"],
-        enable_profile_use: true,
+        enable_profile_use: false,
     },
 }
 
@@ -172,7 +172,7 @@ cc_defaults {
         instrumentation: true,
         profile_file: "hwbinder/hwbinder.profdata",
         benchmarks: ["hwbinder_benchmark"],
-        enable_profile_use: true,
+        enable_profile_use: false,
     },
 }
 
